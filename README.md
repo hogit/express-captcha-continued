@@ -33,7 +33,7 @@ const captchaMathUrl = '/captcha_math.jpg';
 const captchaSessionId = 'captcha';
 const captchaFieldName = 'captcha';
 
-const captcha = require('./index').create({
+const captcha = require('svg-captcha-express').create({
 	cookie: captchaSessionId
 });
 
