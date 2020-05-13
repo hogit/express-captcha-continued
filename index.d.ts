@@ -3,6 +3,10 @@
  */
 declare class ConfigObject {
 	/**
+	 * The cookie name used to store the challenge
+	 */
+	cookie?: string;
+	/**
 	 * default: true
 	 * The length of the random string
 	 */
@@ -55,12 +59,28 @@ interface CaptchaObj {
 	 * the captcha text,
 	 * store this in your session
 	 */
-	text: string,
+	text: string;
 	/**
 	 * the svg image in string,
 	 * set type of image/svg before send to client side
 	 */
-	data: string
+	data: string;
+	/**
+	 * The middleware to generate the image
+	 */
+	image: () => (req: any, res: any) => void;
+	/**
+	 * The middleware to generate the math image
+	 */
+	math: () => (req: any, res: any) => void;
+	/**
+	 * Checks the captcha challenge
+	 */
+	check: (req: any, text: string, caseSensitive: boolean) => boolean;
+	/**
+	 * Loads a font via url
+	 */
+	loadFont: (url: string) => void;
 }
 /**
  * This method returns a object that has two props:
