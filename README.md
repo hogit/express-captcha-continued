@@ -1,6 +1,6 @@
-[![NPM Version](https://img.shields.io/npm/v/svg-captcha-express.svg?style=flat-square)](https://www.npmjs.com/package/svg-captcha-express)
-[![NPM Downloads](https://img.shields.io/npm/dm/svg-captcha-express.svg?style=flat-square)](https://www.npmjs.com/package/svg-captcha-express)
-[![Buils status](https://travis-ci.org/lazarofl/svg-captcha-express.svg?branch=master)](https://travis-ci.org/lazarofl/svg-captcha-express)
+[![NPM Version](https://img.shields.io/npm/v/express-captcha-continued.svg?style=flat-square)](https://www.npmjs.com/package/express-captcha-continued)
+[![NPM Downloads](https://img.shields.io/npm/dm/express-captcha-continued.svg?style=flat-square)](https://www.npmjs.com/package/express-captcha-continued)
+[![Buils status](https://travis-ci.org/hogit/express-captcha-continued.svg?branch=master)](https://travis-ci.org/hogit/express-captcha-continued)
 
 </div>
 
@@ -158,7 +158,7 @@ Even though you can write a program that convert svg to png, svg captcha has don
 
 # Issues
 
-Please [add issues](https://github.com/lazarofl/svg-captcha-express/issues) if you have a question or found a problem. Pull requests are welcome too!
+Please [add issues](https://github.com/hogit/express-captcha-continued/issues) if you have a question or found a problem. Pull requests are welcome too!
 
 ## License
 
