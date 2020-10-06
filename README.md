@@ -15,7 +15,7 @@
 ## install
 
 ```
-npm install --save svg-captcha-express
+npm install --save express-captcha-continued
 ```
 
 ## usage
@@ -33,7 +33,7 @@ const captchaMathUrl = '/captcha_math.jpg';
 const captchaSessionId = 'captcha';
 const captchaFieldName = 'captcha';
 
-const captcha = require('svg-captcha-express').create({
+const captcha = require('express-captcha-continued').create({
 	cookie: captchaSessionId
 });
 
